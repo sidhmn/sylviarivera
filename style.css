@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;700;800;900&display=swap');
+
+/*
+  #424B54
+  #93A8AC
+  #FFFFFF
+  #E2B4BD
+  #9B6A6C
+*/
+
+/* IMAGE BANK
+https://aldianews.com/sites/default/files/articles/1131-cover-04.jpg
+https://d14rkevpv7zazs.cloudfront.net/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fnyhs-prod%2Fgay-power-is-trans-history-street-transvestite-action-revolutionaries-22.jpg%3Fauto%3Dcompress%2Cformat%26rect%3D0%2C146%2C708%2C320%26w%3D2000%26h%3D903%26q%3D80&w=2560&q=75
+https://d14rkevpv7zazs.cloudfront.net/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fnyhs-prod%2Fgay-power-is-trans-history-street-transvestite-action-revolutionaries-22.jpg%3Fauto%3Dcompress%2Cformat%26rect%3D0%2C146%2C708%2C320%26w%3D2000%26h%3D903%26q%3D80&w=2560&q=75
+*/ 
+
+
+/* INDEX */
+
+body{
+  margin:0%;
+  background-color: #FFF8F0;
+}
+
+.indexTitle{
+  background-image: url("https://www.nyhistory.org/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fnyhs-prod%2Fgay-power-is-trans-history-street-transvestite-action-revolutionaries-22.jpg%3Fauto%3Dcompress%2Cformat%26rect%3D0%2C146%2C708%2C320%26w%3D2000%26h%3D903%26q%3D80&w=1200&q=75"
+);
+  background-repeat: no-repeat;
+  background-size:cover;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align:right;
+}
+
+#theRiseOf{
+  font-family: 'Libre Baskerville', serif;
+  font-size:50px;
+  padding-right:4%;
+  padding-top:9%;
+  line-height:0;
+  color:#F4D06F;
+}
+
+#sylviaRivera{
+  font-family: 'League Spartan', sans-serif;
+  font-size: 110px;
+  padding-right:3%;
+  line-height:0;
+  letter-spacing:2%;
+  color:#FFF8F0;
+  background-color: #392F5A;
+}
+
+#quote{
+  margin-right:3%;
+  margin-bottom: 9%;
+  margin-left:50%;
+  margin-top:3%;
+  line-height:1;
+  word-break:normal;
+  font-family: 'Libre Baskerville', serif;
+  background-color:#F4D06F;
+}
+
+/* INFO */
+
+#riveraIntro{
+  width:80%;
+  padding-left:10%;
+}
+
+#caption1{
+  padding-left:10%;
+  margin-top:0.5%;
+}
+
+.earlyLife, .activism, .intro{
+  padding-left:9%;
+  padding-right:9%;
+  padding-top:3%;
+  padding-bottom:3%;
+}
+
+.intro{
+  text-align:center;
+}
+
+.intro h1{
+  font-family: 'League Spartan', sans-serif;
+  font-weight:900;
+  font-size:250%;
+  color:#392F5A;
+  text-align:center;
+  background-color:#F4D06F;
+}
+
+.intro p{
+  font-family: 'Libre Baskerville', serif;
+  line-height:25px;
+  font-weight:700;
+  font-size:110%;
+}
+
+.intro span{
+  color: #FF8811;
+}
+
+.earlyLife h1{
+    font-family: 'League Spartan', sans-serif;
+    font-weight:900;
+    font-size:250%;
+    color:#392F5A;
+  text-align:right;
+  margin-left:50%;
+  }
+
+.earlyLife p{
+    font-family: 'Libre Baskerville', serif;
+    line-height:25px;
+  text-align:right;
+  margin-left:50%;
+}
+
+
+#earlyLifeImage{
+  width:45%;
+  float:left;
+}
+
+.activism h1{
+  font-family: 'League Spartan', sans-serif;
+  font-weight:900;
+  font-size:250%;
+  color:#392F5A;
+  clear:both;
+}
+
+.activism h2{
+  font-family: 'League Spartan', sans-serif;
+  color:#FF8811;
+  background-color:#F4D06F;
+}
+
+.activism p{
+    font-family: 'Libre Baskerville', serif;
+    line-height:25px;
+}
+
+.STAR{
+  margin-right:50%;
+  padding-bottom:2%;
+  padding-right:2%;
+}
+
+#stonewall{
+  width:50%;
+  float:right;
+  padding-left:2%;
+}
+
+.SRLP{
+  text-align:right;
+  margin-left:50%;
+  padding-top:2%;
+  padding-left:2%;
+}
+
+strong{
+  color:#79a9a4;
+}
+
+#SRLP{
+  margin-left:20%;
+}
+
+#SRLPimage{
+  width:55%;
+  float:left;
+  padding-top:4%;
+  padding-right:2%;
+}
+
+.video{
+  text-align:center;
+  padding-top:2%;
+  clear:both;
+}
+
+.video em{
+  color:#392F5A;
+}
+
+/* SOURCES */
+
+.bib{
+  padding-left:17%;
+  padding-right:17%;
+  padding-top:3%;
+  padding-bottom:3%;
+}
+
+.bib h1{
+  font-family: 'League Spartan', sans-serif;
+  font-weight:900;
+  font-size:250%;
+  color:#392F5A;
+  background-color:#9DD9D2;
+  text-align:center;
+  margin-left:20%;
+  margin-right:20%;
+}
+
+.bib ul{
+  font-family: 'Libre Baskerville', serif;
+  line-height:30px;
+  font-size:110%;
+  font-weight:700;
+}
+
+#listOne{
+  color: #5a7774;
+}
+
+#listTwo{
+  color: #80b3ae;
+}
+
+/* NAV BAR */
+.nav li {
+  display: inline;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: #392F5A;
+}
+
+.nav ul {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0%;
+  margin-bottom:0%;
+  padding: 1.2%;
+  font-size: 150%;
+  background-color: #9DD9D2;
+  letter-spacing: 0px;
+  font-family: 'League Spartan', sans-serif;
+  font-weight:700;
+}
+
+.nav li a:hover {
+  background-color: #FFF8F0;
+}
